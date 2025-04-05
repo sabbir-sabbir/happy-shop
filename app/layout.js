@@ -1,3 +1,5 @@
+
+import Navbar from "./components/navbar/nav";
 import { ContextProvider } from "./context/ContextAPI";
 import "./globals.css";
 
@@ -13,7 +15,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" >
       <body>
-        <ContextProvider>{children}</ContextProvider>
+        <ContextProvider>
+        <Navbar/>
+          {children}
+        </ContextProvider>
       </body>
     </html>
   );

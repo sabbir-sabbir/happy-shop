@@ -40,11 +40,11 @@
 }
 
 .about{
-  @apply text-black font-medium hover:scale-105 duration-100 transition-all hover:text-zinc-600
+  @apply text-zinc-700 uppercase font-poppins font-medium  hover:text-zinc-800 hover:scale-110 duration-300 transition-all
 }
 
 .contact{
-  @apply text-black font-medium hover:scale-105 duration-100 transition-all hover:text-zinc-600
+  @apply text-zinc-700 uppercase font-poppins font-medium  hover:text-zinc-800 hover:scale-110 duration-300 transition-all
 }
 
 .card-length{
@@ -52,7 +52,7 @@
 }
 
 .mobile-screen-link {
-  @apply flex flex-col items-center justify-center gap-4 p-4 bg-gray-300/45 rounded-md
+  @apply flex flex-col items-center justify-center gap-4 p-4 bg-gradient-to-tr from-rose-100 via-lime-100/80 to-rose-100 backdrop-blur-2xl rounded-sm hover:shadow-2xl duration-300 transition-all
 }
 
 /*  Product/ page.jsx styles */

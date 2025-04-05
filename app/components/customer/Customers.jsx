@@ -1,6 +1,6 @@
 import React from 'react'
 import CustomerData from './CustomerData'
-import CarouselSlide from './carousel'
+
 
 
 const Customers = () => {
@@ -13,10 +13,10 @@ const Customers = () => {
     </div>
     
 
-    <div className='grid grid-cols-1 md:grid-cols-3'>
+    <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
        
      {CustomerData.slice(5,8).map((data, index)=> (
-      <div key={index} className='flex flex-col items-start justify-start p-4 border-r-2 border-dashed border-gray-400 '>
+      <div key={index} className='flex flex-col items-start justify-start p-4 border-r-2 border-dashed border-gray-400 bg-gradient-to-tr from-white via-white to-[#cbf3f0]/25 '>
       <img className='w-14 h-14 object-cover' src={data.icon} alt={data.name} />
       <h2 className='font-poppins mt-2 font-semibold text-zinc-400 tracking-wider'>{data.name}</h2>
       <h1 className=' flex items-center gap-4 font-poppins mt-4 text-gray-500'> <span><img className='w-5 h-5' src="/love.svg" alt="" /></span> {data.title}</h1>

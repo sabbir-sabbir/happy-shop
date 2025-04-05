@@ -10,7 +10,7 @@ import {
 const Faqsection = () => {
   return (
    <>
-   <div className='w-full h-auto py-4 px-12 flex items-center justify-center  mt-24 bg-gradient-to-tl from-[#fefae0] via-[#c7f9cc]/75 to-[#f7e1d7] '>
+   <div className='w-full h-auto py-4 px-12 flex items-center justify-center  mt-24 bg-gradient-to-tl from-[#fefae0] via-[#c7f9cc]/25 to-[#f7e1d7]/15 '>
    <Accordion type="single" collapsible  defaultValue="item-2"  className="w-full max-w-2xl mx-auto bg-white ">
   <AccordionItem value="item-1" className="px-3">
     <AccordionTrigger className="text-lg font-poppins text-zinc-600">It is a long established fact that a reader will be distracted </AccordionTrigger>

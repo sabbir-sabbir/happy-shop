@@ -65,7 +65,7 @@ export default function Navbar() {
               )}
             </button>
             {!menu && (
-              <div className=" w-[100px] h-auto p-3  absolute top-10 right-0 ">
+              <div className=" w-[400px] h-auto p-3  absolute top-14 right-0 ">
                 <div className="mobile-screen-link">
                   <Link href="/components/about">
                     <span className="about">
@@ -81,7 +81,7 @@ export default function Navbar() {
 
                   <Link href="/components/cards" className="relative">
                     <img
-                      className="w-8 h-8 text-white"
+                      className="w-8 h-8 "
                       src="/card.svg"
                       alt="CARD"
                     />
